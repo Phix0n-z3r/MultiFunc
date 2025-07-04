@@ -1,0 +1,6 @@
+<!-- res/drawable/btn_main_style.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#3F51B5" /> <!-- آبی تیره، می‌تونی رنگ دلخواه بذاری -->
+    <corners android:radius="16dp" />
+</shape>

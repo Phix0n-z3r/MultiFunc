@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back">
+
+    <!-- عکس دایره‌ای بالای صفحه -->
+    <ImageView
+        android:id="@+id/imgTopCircle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/circle_image"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circle_image"
+        android:padding="8dp" />
+
+    <!-- دکمه‌ها -->
+    <Button
+        android:id="@+id/btnSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#191717"
+        android:text="ارسال پیامک"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#E7EBEB"
+        android:text="محاسبه BMI"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#191717"
+        android:text="محاسبه سن"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="ورود و ثبت نام"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#191717"
+        android:text="آموزش یک موضوع خاص"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="ماشین حساب"
+        android:textColor="#0D0D0D" />
+
+    <!-- دکمه گروه سنی با آی‌دی صحیح -->
+    <Button
+        android:id="@+id/btnAgeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#191717"
+        android:text="گروه سنی"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnNomre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="رتبه ی نمره"
+        android:textColor="#1D1A1A" />
+
+    <Button
+        android:id="@+id/btnDiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#191717"
+        android:text="محاسبه تخفیف"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSecurePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="پسوورد امن"
+        android:textColor="#000000" />
+
+
+
+</LinearLayout>
